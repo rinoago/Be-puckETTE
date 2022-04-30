@@ -16,6 +16,10 @@
 #include <communications.h>
 #include <arm_math.h>
 
+#include "explore.h"
+#include "react.h"
+#include "trouble.h"
+
 //uncomment to send the FFTs results from the real microphones
 //#define SEND_FROM_MIC
 

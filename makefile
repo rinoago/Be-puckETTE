@@ -3,7 +3,7 @@
 #Simply adapt the lines below to be able to compile
 
 # Define project name here
-PROJECT = Noisy
+PROJECT = Be-puckETTE
 
 #Define path to the e-puck2_main-processor folder
 GLOBAL_PATH = ../lib/e-puck2_main-processor
@@ -13,6 +13,9 @@ CSRC += ./main.c \
 		./audio_processing.c \
 		./communications.c \
 		./fft.c \
+		./Trouble.c \
+		./React.c \
+		./Explore.c \
 
 #Header folders to include
 INCDIR += 
